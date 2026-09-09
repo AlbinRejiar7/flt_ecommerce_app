@@ -91,7 +91,7 @@ Cubit keeps application logic separate from widgets and is easy to test. Its dir
 
 - The greeting, offers, and category icons are static. Offers do not change prices.
 - Some category tabs may have no matching products in the API.
-- The grid adapts to screen width rather than always showing exactly two columns.
+- I adapted the reference design to suit tablet screens, placing offers and categories side by side on wider layouts and allowing the product grid to adjust its column count to the available width.
 - Cart data lasts for the current app session; favorites persist between launches.
 - Checkout, Orders, Wallet, and Profile are placeholders and outside the core assignment scope.
 - The product card's “sold” badge currently uses the API rating count.
